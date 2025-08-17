@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 10px;
+}
+.input {
+  height: 25px;
+  width: 400px;
+  border-width: 0px;
+}
+.searchIconBox {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  outline: none;
+  border-width: 0px;
+}
+.searchIcon {
+  height: 18px;
+}
+
+.tabs {
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px){
+    .input{
+      width:200px;
+    }
+    .tabs{
+      width: 250px;
+    }
+}

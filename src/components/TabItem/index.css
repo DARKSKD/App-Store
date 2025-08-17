@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.button {
+  color: #7b8794;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  border-bottom: 2px solid #7b8794;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 5px;
+}
